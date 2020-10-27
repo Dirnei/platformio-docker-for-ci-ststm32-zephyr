@@ -11,7 +11,7 @@ I allready preinstalled the packages which are installed when you run the build 
 ## Example usage local
 
 ```docker
-docker run -v ${pwd}:/opt/build dirnei/platformio-for-ci-ststm32-zephyr:latest platformio run -d /opt/build/.
+docker run -v ${pwd}:/opt/build --user 1001 dirnei/platformio-for-ci-ststm32-zephyr:latest platformio run -d /opt/build/.
 ```
 
 ## Example usage Azure DevOps
