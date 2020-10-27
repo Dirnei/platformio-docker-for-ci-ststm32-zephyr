@@ -8,6 +8,8 @@ I allready preinstalled the packages which are installed when you run the build 
 
 > The packages are installed for uid 1001 (Username: vsts)## Example usage local
 
+## Example usage local
+
 ```docker
 docker run -v ${pwd}:/opt/build dirnei/platformio-for-ci-ststm32-zephyr:latest platformio run -d /opt/build/.
 ```
