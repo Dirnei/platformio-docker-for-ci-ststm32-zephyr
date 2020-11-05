@@ -1,3 +1,8 @@
+[![](https://img.shields.io/docker/v/dirnei/platformio-for-ci-ststm32-zephyr?style=for-the-badge)](https://cloud.docker.com/repository/docker/dirnei/platformio-for-ci-ststm32-zephyr/ "View on Docker Hub")
+[![](https://img.shields.io/docker/image-size/dirnei/platformio-for-ci-ststm32-zephyr/latest?style=for-the-badge)](https://cloud.docker.com/repository/docker/dirnei/platformio-for-ci-ststm32-zephyr/ "View on Docker Hub")
+[![](https://img.shields.io/docker/pulls/dirnei/platformio-for-ci-ststm32-zephyr?style=for-the-badge)](https://cloud.docker.com/repository/docker/dirnei/platformio-for-ci-ststm32-zephyr/ "View on Docker Hub")
+[![](https://img.shields.io/github/license/dirnei/platformio-docker-for-ci-ststm32-zephyr?style=for-the-badge)](https://github.com/Dirnei/platformio-docker-for-ci-ststm32-zephyr/blob/master/LICENSE "View License")
+
 # PlatformIO container with preinstalled toolchain for zephyr on ststm32 platform
 
 This docker image can be used to build PlatformIO projects within a docker container. It has no entrypoint so you have to provide the command by yourself. This e.g. usefull if you want to run this container in a Azure DevOps build pipeline.
